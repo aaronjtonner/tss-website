@@ -243,7 +243,7 @@ export default function Footer() {
                   <StyledLink to="/services">services</StyledLink>
                 </li>
                 <li>
-                  <StyledLink to="/reviews">reviews</StyledLink>
+                  <StyledLink to="/testimonials">testimonials</StyledLink>
                 </li>
                 <li>
                   <StyledLink to="/contact">contact</StyledLink>
@@ -252,7 +252,12 @@ export default function Footer() {
             </FlexItem>
             <FlexItem className="spacing">
               <p className="heading">about us</p>
-              <p>about</p>
+              <p>
+                Using social media platforms and influencer marketing techniques
+                to develop creative brands, produce purposeful content, generate
+                hype and customer engagement, influence action on your business,
+                and help establish you as the leader of your field.
+              </p>
             </FlexItem>
           </Flex>
           <hr />

@@ -122,7 +122,7 @@ export const ButtonUnderline = styled(props => <Link {...props} />)`
   cursor: pointer;
   display: inline-block;
   font-size: var(--fs-sm);
-  font-weight: var(--fw-button);
+  font-weight: 900;
   font-style: italic;
   letter-spacing: 0.1em;
   text-transform: uppercase;

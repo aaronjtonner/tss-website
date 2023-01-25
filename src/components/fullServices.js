@@ -15,6 +15,8 @@ const Item = styled.div`
 
 const ImgStyle = {
   borderRadius: "1000px",
+  height: "400px",
+  border: "1px solid var(--clr-accent)",
 }
 
 export default function FullServices() {
@@ -37,8 +39,8 @@ export default function FullServices() {
             <Item className="spacing">
               <StaticImage
                 style={ImgStyle}
-                src="../images/home-window-repair-installation-calgary.jpg"
-                alt="home window repair & installation calgary"
+                src="../images/social-media-management-sudbury.jpg"
+                alt="social media management sudbury"
               />
               <h3 className="upper bold">social media management</h3>
               <p>
@@ -56,8 +58,8 @@ export default function FullServices() {
             <Item className="spacing">
               <StaticImage
                 style={ImgStyle}
-                src="../images/24-hour-commercial-window-repair-calgary.jpg"
-                alt="24/7 commercial window repair calgary"
+                src="../images/social-media-influencer-marketing-sudbury.jpg"
+                alt="social media influencer marketing sudbury"
               />
               <h3 className="upper bold">social media influencing</h3>
               <p>
@@ -75,8 +77,8 @@ export default function FullServices() {
             <Item className="spacing">
               <StaticImage
                 style={ImgStyle}
-                src="../images/new-storm-doors-installation-calgary.jpg"
-                alt="new storm doors installation calgary"
+                src="../images/sudbury-web-design.jpg"
+                alt="sudbury web design"
               />
               <h3 className="upper bold">web design & SEO</h3>
               <p>

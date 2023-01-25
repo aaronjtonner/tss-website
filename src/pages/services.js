@@ -12,6 +12,9 @@ import Clients from "../components/clients"
 import ServicesList from "../components/services/servicesList"
 import CTA from "../components/CTA"
 import SocialMediaManagement from "../components/services/socialMediaManagement"
+import SocialMediaInfluencing from "../components/services/socialMediaInfluencing"
+import WebDesign from "../components/services/webDesign"
+import TeamCondensed from "../components/teamCondensed"
 
 export default function Services() {
   return (
@@ -74,6 +77,9 @@ export default function Services() {
         description="We work with our clients to develop and execute a strategic social media plan based on market research and your company’s unique goals and objectives."
       />
       <SocialMediaManagement />
+      <SocialMediaInfluencing />
+      <WebDesign />
+      <TeamCondensed />
       <FormContact title="get in touch with us using the form below" />
     </Layout>
   )

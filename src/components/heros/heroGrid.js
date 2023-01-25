@@ -3,6 +3,7 @@ import styled from "styled-components"
 import { Container } from "../layoutComponents"
 import { ButtonPrimary } from "../buttons"
 import { StaticImage } from "gatsby-plugin-image"
+import HeroImg from "../../images/hero-circles-tss.svg"
 
 const Wrapper = styled.div`
   display: grid;
@@ -24,9 +25,13 @@ const Top = styled.div`
   grid-row: 1 / 2;
   grid-column: 1 / -1;
   color: var(--txt-light);
-  padding: 4em 0;
+  padding: 4em 0 4em 0;
   justify-self: center;
   text-align: center;
+
+  h2 {
+    padding-top: 4em;
+  }
 
   h2,
   p {
@@ -64,11 +69,7 @@ export default function HeroGrid(props) {
       </Top>
       <Bottom>
         <Container>
-          <StaticImage
-            src="../../images/hero-circles-full.svg"
-            alt="tss"
-            height={600}
-          />
+          <img src={HeroImg} alt="tss" />
         </Container>
       </Bottom>
     </Wrapper>

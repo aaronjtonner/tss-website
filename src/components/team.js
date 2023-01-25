@@ -107,19 +107,16 @@ While most kids were heading to soccer practice or hanging out with their friend
 Hailey
 was attending business meetings and events alongside her mom. Growing up in the
 business world, Hailey developed a strong passion for business at a young age. Her mom
-instilled in her the importance of supporting local, giving back to the community, and h
-ard
+instilled in her the importance of supporting local, giving back to the community, and hard
 work.
-These experiences, c
-onnections, and opportunities
+These experiences, connections, and opportunities
 have given Hailey the confidence to
 become the next
 -
 generation girl boss she is today.
 Inspired by her mother, Hailey attended Laurentian University where she obtained a
 Bachelor
-of Business Admin
-istration
+of Business Administration
 degree majoring in Marketing. In 2018, while in her second year of
 university Hailey begun The Social Soulpreneur as a
 “
@@ -153,8 +150,7 @@ Canada
 Hailey is proud to staff a
 fully female
 team of 3 full time employees. In 2021 Hailey was
-awarded the Bell Busines
-s Excellence Young Entrepreneur of the Year award.
+awarded the Bell Business Excellence Young Entrepreneur of the Year award.
 Hailey’s greatest
 accomplishment in life came in
 June of 2022
@@ -172,9 +168,7 @@ daughter, Indiana."
               was intrigued by their motto, their vision, and the company culture. Seeing as this was the first
               time she heard about
               working in social media as a career, she knew she had to test the waters
-              out to see if this was the right fit for her. This led to Mikayla applying at TSS for her co
-              -
-              op.
+              out to see if this was the right fit for her. This led to Mikayla applying at TSS for her co-op.
               During this time, she learnt a considerable amount about marketing, social media, and
               how
               truly amazing The Social Soulpreneur team is.
@@ -203,14 +197,12 @@ daughter, Indiana."
               combine her creative abilities with her love for business and knew that specializing in marketing was a perfect fit
               for her.
               In 2017, Daniela attended Laurentian University. Here, she earned a Bachelor's degree in Business Administration
-              w
-              ith a specialization in Marketing and a minor in Communication Studies. When Daniela met
+              with a specialization in Marketing and a minor in Communication Studies. When Daniela met
               Hailey
               in her
               marketing class at Laurentian, they instantly became friends and knew they would work so well together. With
               the same passions in mind, Daniela and
-              Haile
-              y
+              Hailey
               continue to help each other thrive in business, and in 2020 she
               joined The Social Soulpreneur. Her favourite thing about working in marketing and social media is the diversity.
               Every client has a different brand, vision, and goal
@@ -219,8 +211,7 @@ daughter, Indiana."
               just as unique!
               Since joining The Social Soulpreneur, Daniela has expanded her skill set and grown as a marketer. Not only does
               she create engaging content for clients, but she also develops strategic marketing and brand work, manages and
-              creates digita
-              l ads, and more!
+              creates digital ads, and more!
               She is very excited to keep helping clients grow their businesses and reach their marketing goals!"
             />
           </div>

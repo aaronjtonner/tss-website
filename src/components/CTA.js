@@ -3,13 +3,18 @@ import React from "react"
 import styled from "styled-components"
 import { AnchorInline, ButtonPrimary } from "./buttons"
 import { Actions, Container, Flex, Section } from "./layoutComponents"
+import CtaImg from "../images/cta-circles.svg"
 
 const Wrapper = styled.div`
-  background: url("../../images/cta-background.jpg") rgba(0, 0, 0, 0.9);
+  background: url("../../images/cta-background.jpg") rgba(0, 0, 0, 0.8);
   background-blend-mode: overlay;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+
+  .cta-img {
+    height: 500px;
+  }
 `
 
 const Text = styled.div`
@@ -40,10 +45,10 @@ export default function CTA(props) {
                 </AnchorInline>
               </Actions>
             </Text>
-            <StaticImage
-              src="../images/cta-cirlces.svg"
+            <img
+              className="cta-img"
+              src={CtaImg}
               alt="call now to get your quote"
-              height={100}
             />
           </Flex>
         </Container>

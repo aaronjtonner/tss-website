@@ -272,7 +272,7 @@ export default function HeaderBasic() {
                   <StyledLink to="/services">services</StyledLink>
                 </li>
                 <li>
-                  <StyledLink to="/reviews">reviews</StyledLink>
+                  <StyledLink to="/testimonials">testimonials</StyledLink>
                 </li>
                 <li>
                   <StyledLink to="/contact">contact</StyledLink>

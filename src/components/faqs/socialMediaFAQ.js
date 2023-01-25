@@ -3,7 +3,7 @@ import styled from "styled-components"
 import { Section, Container, Flex } from "../layoutComponents"
 import { ButtonUnderline } from "../buttons"
 
-import ArrowDown from "../../images/arrow-down.svg"
+import ArrowDown from "../../images/arrow-down-white.svg"
 
 const device = {
   md: "48em",
