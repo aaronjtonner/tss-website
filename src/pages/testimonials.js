@@ -18,6 +18,7 @@ import Banner from "../components/banners/bannerPrimary"
 export default function Testimonials() {
   return (
     <Layout>
+      <SEO title="" description="" />
       <Banner
         to1="/"
         link1="Home"

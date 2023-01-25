@@ -19,10 +19,7 @@ import TeamCondensed from "../components/teamCondensed"
 export default function Services() {
   return (
     <Layout>
-      <SEO
-        title="Our Services - KLAAD Glass Ltd."
-        description="We offer residential & commercial window repairs & replacement services, and storm door services in Calgary and surrounding areas."
-      />
+      <SEO title="Our Services" description="" />
       <Banner
         to1="/"
         link1="Home"
