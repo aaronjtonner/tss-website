@@ -16,7 +16,7 @@ import FullServices from "../components/fullServices"
 export default function About() {
   return (
     <Layout>
-      <SEO title="Abous Us - " description="" />
+      <SEO title="About Us - " description="" />
       <Banner
         to1="/"
         link1="Home"
