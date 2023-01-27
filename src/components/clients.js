@@ -23,7 +23,22 @@ export default function Clients() {
           </div>
           <GridAuto>
             <StaticImage
-              src="../images/clients/adventure.png"
+              src="../images/clients/adventure.svg"
+              alt="social media marketing sudbury client"
+              height={150}
+            />
+            <StaticImage
+              src="../images/clients/arc.svg"
+              alt="social media marketing sudbury client"
+              height={150}
+            />
+            <StaticImage
+              src="../images/clients/boreal.svg"
+              alt="social media marketing sudbury client"
+              height={150}
+            />
+            <StaticImage
+              src="../images/clients/beyond-wireless.svg"
               alt="social media marketing sudbury client"
               height={150}
             />

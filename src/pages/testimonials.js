@@ -22,10 +22,10 @@ export default function Testimonials() {
       <Banner
         to1="/"
         link1="Home"
-        to2="/services"
-        link2="Services"
+        to2="/testimonials"
+        link2="Testimonials"
         title="our clients love us!"
-        description="desc"
+        description="From start-ups to international brands, to local businesses to franchises – we’ve got the tools and expertise to effectively work with them all. Read our featured testimonials below to see why our clients love working with us."
         img={BannerImg}
       />
     </Layout>

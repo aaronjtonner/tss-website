@@ -22,8 +22,8 @@ export default function About() {
         link1="Home"
         to2="/about"
         link2="About"
-        title="about us"
-        description="Your social media marketing agency in sudbury!"
+        title="Your new marketing team"
+        description="The Social Soulpreneur is a full-service marketing studio and social media agency specializing in content curation, brand development, digital advertising, website development, and social media management."
         img={BannerImg}
       />
       <Section>
@@ -61,18 +61,19 @@ export default function About() {
               communicate their message.
             </p>
           </div>
-          <ButtonPrimary to="/contact">get your quote</ButtonPrimary>
+          <ButtonPrimary to="/contact">get your quote &#8594;</ButtonPrimary>
         </Container>
       </Section>
       <Team />
       <FullServices />
       <AllReviews />
       <CTA
-        subtitle="need to request a service"
-        title="title"
-        description="KLAAD Glass can help you with all your residential or commercial glass and window service needs"
+        subtitle=""
+        // title="Start connecting with your audience."
+        title="Stop going it alone in your marketing efforts"
+        description="Get an entire team of marketing experts working with you to connect you with your target audience and drive results. Whether you're looking to grow your brand, increase engagement, or boost conversions, we've got you covered. Click the link or give us a call today to schedule a free consultation and see how our team can help you achieve your goals."
       />
-      <FormContact title="get a free estimate for your glass installation or repair!" />
+      <FormContact title="Discover how we can help your business grow" />
     </Layout>
   )
 }

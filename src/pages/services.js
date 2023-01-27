@@ -15,6 +15,12 @@ import SocialMediaManagement from "../components/services/socialMediaManagement"
 import SocialMediaInfluencing from "../components/services/socialMediaInfluencing"
 import WebDesign from "../components/services/webDesign"
 import TeamCondensed from "../components/teamCondensed"
+import styled from "styled-components"
+
+const TopText = styled.div`
+  width: 85%;
+  margin: 0 4rem;
+`
 
 export default function Services() {
   return (
@@ -25,59 +31,75 @@ export default function Services() {
         link1="Home"
         to2="/services"
         link2="Services"
-        title="your in-house social media marketing agency in sudbury"
-        description="desc"
+        title="your in-house social media marketing agency in sudbury, ON"
+        description="Our mission as your Sudbury digital marketing team is to help you more effectively market your business and promote your brand through social media while engaging with your community in a humanized way."
         img={BannerImg}
       />
       <Section>
-        <Flex>
+        <Flex className="spacing">
           <StaticImage src="../images/services-1.jpg" alt="" />
-          <Container className="spacing">
+          <TopText className="spacing">
             <div>
               <p className="body--small upper">
-                your in-house sudbury marketing team
+                your in-house sudbury, ON digital marketing team
               </p>
               <h1 className="upper">
-                <span className="italics">main services</span>{" "}
-                <span className="accent">overview</span>
+                <span className="italics">
+                  stop going it alone in your marketing efforts and hire a team
+                  of
+                </span>{" "}
+                <span className="accent">marketing experts</span>
               </h1>
             </div>
-            <div>
+            <div className="spacing">
               <p>
-                The Social Soulpreneur is a team of expert social media managers
-                and marketing and branding gurus who know how to effectively and
-                efficiently manage your audience in a timely manner – with no
-                programming and no automation. Just real, organic growth.
+                The Social Soulpreneur is a full-service marketing studio and
+                social media agency specializing in content curation, brand
+                development, digital advertising, website development, and
+                social media management. We help develop your brand's visual
+                identity and connect it with your audience in an authentic and
+                engaging way.
               </p>
               <p>
-                The Social Soulpreneur is a team of expert social media managers
-                and marketing and branding gurus who know how to effectively and
-                efficiently manage your audience in a timely manner – with no
-                programming and no automation. Just real, organic growth.
+                We help entrepreneurs and professionals bring their brand vision
+                to life while taking care of the daily tasks of managing an
+                effective online presence - giving them the time they need to
+                focus on what they do best. We bring authenticity and connection
+                to businesses and corporations through social media engagement
+                and brand development to enhance their communications and brand
+                image with their target audience.
               </p>
               <p>
-                The Social Soulpreneur is a team of expert social media managers
-                and marketing and branding gurus who know how to effectively and
-                efficiently manage your audience in a timely manner – with no
-                programming and no automation. Just real, organic growth.
+                When you choose to work with The Social Soulpreneur, you get
+                access to our entire team of expert content creators,
+                photographers, videographers, developers, brand strategists and
+                marketers to help put your brand in front of your target
+                audience. From start-ups and franchises to local businesses and
+                international companies, our team has the skills to effectively
+                market your business. Since 2019 The Social Soulpreneur has
+                worked with hundreds of brands in industries like mining,
+                retail, finance, healthcare, telecommunications, construction,
+                automotive, non-profit, and everywhere in between.
               </p>
             </div>
-            <ButtonPrimary to="/contact">get quote</ButtonPrimary>
-          </Container>
+            <ButtonPrimary to="/contact">
+              book your consultation &#8594;
+            </ButtonPrimary>
+          </TopText>
         </Flex>
       </Section>
       <Clients />
       <ServicesList />
       <CTA
-        subtitle="need to request a service?"
-        title="call us to get your quote!"
+        subtitle="\"
+        title="get help from a team of digital marketing experts"
         description="We work with our clients to develop and execute a strategic social media plan based on market research and your company’s unique goals and objectives."
       />
       <SocialMediaManagement />
       <SocialMediaInfluencing />
       <WebDesign />
       <TeamCondensed />
-      <FormContact title="get in touch with us using the form below" />
+      <FormContact title="easily request a service using the form below" />
     </Layout>
   )
 }

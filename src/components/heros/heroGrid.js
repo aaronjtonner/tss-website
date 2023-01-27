@@ -13,7 +13,7 @@ const Wrapper = styled.div`
 const Bg = styled.div`
   grid-column: 1 / -1;
   grid-row: 1 / span 2;
-  background: url("../../images/tss-hero-1.jpg") rgba(0, 0, 0, 0.5);
+  background: url("../../images/tss-hero-1.jpg") rgba(0, 0, 0, 0.6);
   background-blend-mode: overlay;
   background-position: center;
   background-size: cover;
@@ -58,13 +58,19 @@ export default function HeroGrid(props) {
       <Top>
         <Container className="spacing">
           <h2 className="title caps bold">
-            <span className="italics">elevating</span>{" "}
-            <span className="accent">your brand to new heights</span>
+            <span className="accent italics">elevating</span>{" "}
+            <span className="italics">
+              your brand to new heights through social media
+            </span>
           </h2>
-          <p>Your new secret weapon to level up your marketing.</p>
-          <ButtonPrimary to="/contact">
-            get your free marketing estimate
-          </ButtonPrimary>
+          <p className="bold">
+            Unlock the full potential of your social media presence with our
+            unique in-house services. Our focus on custom strategies and
+            personalized attention will allow you to confidently leave the
+            social media marketing to us, while you continue to shine in your
+            own area of expertise.
+          </p>
+          <ButtonPrimary to="/contact">talk to us now &#8594;</ButtonPrimary>
         </Container>
       </Top>
       <Bottom>

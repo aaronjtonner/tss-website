@@ -95,7 +95,7 @@ export default function TeamCondensed() {
             <h2 className="title upper center">
               <span className="italics">meet the </span>
               <span className="accent">TSS</span>{" "}
-              <span className="italics">marketing team!</span>
+              <span className="italics">marketing team</span>
             </h2>
           </div>
           <GridThree>

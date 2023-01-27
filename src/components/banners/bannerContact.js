@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import { Actions, Container, Flex } from "../layoutComponents"
-import { ButtonPrimary, AnchorInline } from "../buttons"
+import { ButtonPrimary, AnchorInline, AnchorPrimary } from "../buttons"
 import Breadcrumb2Links from "../breadcrumbs/breadcrumb2links"
 import { StaticImage } from "gatsby-plugin-image"
 
@@ -56,7 +56,7 @@ const Img = styled.div`
 `
 
 // banner with only 2 links in the breadcrumb
-export default function Banner(props) {
+export default function BannerContact(props) {
   return (
     <Wrapper>
       <Bg />
@@ -73,13 +73,9 @@ export default function Banner(props) {
         </div>
         <p className="body--small">{props.description}</p>
         <Actions>
-          <ButtonPrimary to="/contact">
-            book your consultation &#8594;
-          </ButtonPrimary>
-          <AnchorInline className="bold italics" href="tel: 705-923-11992">
-            <span className="dark">Or Call Us:</span> <br />
+          <AnchorPrimary className="bold italics" href="tel: 705-923-11992">
             (705) 923-1199
-          </AnchorInline>
+          </AnchorPrimary>
         </Actions>
       </Text>
       <Img>

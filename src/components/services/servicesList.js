@@ -8,8 +8,6 @@ const device = {
 }
 
 const FlexList = styled.div`
-  max-width: 700px;
-  width: 100%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -51,33 +49,42 @@ export default function ServicesList() {
   return (
     <Section>
       <Container className="spacing">
-        <div className="text-center">
-          <p className="upper body--small">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
-            eaque.
+        <div className="text-center spacing">
+          <div>
+            <p className="upper body--small">
+              full-service sudbury digital marketing experts
+            </p>
+            <h2 className="upper">
+              <span className="italics">a glimpse of what can we do for </span>
+              <span className="accent">you</span>
+            </h2>
+          </div>
+          <p>
+            From start-ups to international brands, to local businesses to
+            franchises – we’ve got the tools to effectively work with them all.
+            We’ve helped clients in industries like mining, retail, finance,
+            food, healthcare, and everywhere in between leverage the power of
+            social media to connect with their audience and communicate their
+            message.
           </p>
-          <h2 className="upper">
-            <span className="italics">what we can do for </span>
-            <span className="accent">you.</span>
-          </h2>
         </div>
         <FlexList>
           <ul>
             <li>
               <FaMousePointer style={IconStyle} />
-              service <span className="accent">title</span>
+              social media <span className="accent">marketing</span>
             </li>
           </ul>
           <ul>
             <li>
               <FaMousePointer style={IconStyle} />
-              service <span className="accent">title</span>
+              photography <span className="accent">in-house</span>
             </li>
           </ul>
           <ul>
             <li>
               <FaMousePointer style={IconStyle} />
-              service <span className="accent">title</span>
+              videography <span className="accent">in-house</span>
             </li>
           </ul>
         </FlexList>

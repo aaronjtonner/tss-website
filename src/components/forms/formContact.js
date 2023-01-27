@@ -4,7 +4,7 @@ import styled from "styled-components"
 import { Section, Container, Flex, FlexMobileOpp } from "../layoutComponents"
 import { Label, Input, TextArea, Submit } from "./formItems"
 import Map from "../map"
-import { AnchorInline } from "../buttons"
+import { AnchorInline, ButtonInline } from "../buttons"
 
 const FormWrapper = styled.div`
   // background: var(--clr-dark);
@@ -21,7 +21,7 @@ export default function FormContact(props) {
             <span className="italics">{props.title}</span>
           </h3>
           <p className="caps center">
-            Call <AnchorInline href="705-923-1199">(705) 923-1199</AnchorInline>{" "}
+            Call <ButtonInline href="705-923-1199">(705) 923-1199</ButtonInline>{" "}
             or send us a message below!
           </p>
         </div>
