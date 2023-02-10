@@ -1,5 +1,5 @@
 export const Info = {
-  name: "TSS",
+  name: "The Social Soulpreneur",
   hours: "9:00 AM - 5:00 PM Monday to Saturday",
 
   tel1: "",

@@ -203,7 +203,9 @@ export default function Footer() {
                 </li>
                 <li>
                   <FlexContact>
-                    <a href="mailto: info@email.ca">email@email</a>
+                    <a href="mailto: info@email.ca">
+                      hailey@thesocialsoulpreneur.com
+                    </a>
                   </FlexContact>
                 </li>
                 <li>
@@ -219,13 +221,25 @@ export default function Footer() {
               </ul>
               <Socials>
                 <div>
-                  <a target="_blank" href="">
-                    <img src={Facebook} alt="" />
+                  <a
+                    target="_blank"
+                    href="https://www.facebook.com/thesocialsoulpreneur/"
+                  >
+                    <img
+                      src={Facebook}
+                      alt="social media marketing company sudbury facebook"
+                    />
                   </a>
                 </div>
                 <div>
-                  <a target="_blank" href="">
-                    <img src={Instagram} alt="" />
+                  <a
+                    target="_blank"
+                    href="https://www.instagram.com/thesocialsoulpreneur/?hl=en"
+                  >
+                    <img
+                      src={Instagram}
+                      alt="social media marketing company sudbury instagram"
+                    />
                   </a>
                 </div>
               </Socials>

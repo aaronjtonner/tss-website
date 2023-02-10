@@ -35,7 +35,6 @@ const Top = styled.div`
 
   h2,
   p {
-    max-width: 70ch;
   }
 
   p {

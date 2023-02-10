@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import Bio from "../components/bio"
 import Guarantee from "../components/guarantee"
 import FullServices from "../components/fullServices"
-import AllReviews from "../components/reviews"
+import FeaturedReviews from "../components/featuredReviews"
 import FormContact from "../components/forms/formContact"
 import FeaturedGallery from "../components/featuredGallery"
 import SEO from "../components/seo"
@@ -139,7 +139,7 @@ export default function index() {
       </Section>
       <Clients />
       <FullServices />
-      <AllReviews />
+      <FeaturedReviews />
       <CTA
         subtitle=""
         // title="Start connecting with your audience."

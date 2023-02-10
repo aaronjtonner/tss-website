@@ -6,6 +6,10 @@ import styled from "styled-components"
 import SocialMediaFAQ from "../faqs/socialMediaFAQ"
 import InfluencerFAQ from "../faqs/influencerFaq"
 
+const Wrapper = styled.div`
+  background: var(--clr-light-secondary);
+`
+
 const WrapperTextRight = styled.div`
   display: grid;
   grid-template-columns: 1fr 4em 1fr;
@@ -44,58 +48,62 @@ const Text = styled.div`
 
 export default function SocialMediaInfluencing() {
   return (
-    <Section className="spacing">
-      <Container className="spacing">
-        <div className="text-center">
-          <h2 className="title upper">
-            <span className="italics">your</span>{" "}
-            <span className="accent">social media </span>
-            <span className="italics">influencer</span>
-          </h2>
-        </div>
-        <WrapperTextRight>
-          <Text className="spacing text-left">
-            <div>
-              <h2>
-                <span className="accent">social media influencing</span> in
-                sudbury, ON
-              </h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
-                ea.
-              </p>
-            </div>
-            <div>
-              <h2>
-                <span className="accent">benefits</span> of{" "}
-                <span className="accent">sudbury social media marketing</span>
-              </h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Similique, suscipit.
-              </p>
-            </div>
-            <div>
-              <h2>
-                <span className="accent">our unique 2-phase system </span> for
-                social media <span className="accent">management</span>
-              </h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
-                esse.
-              </p>
-            </div>
-            <ButtonUnderline to="/contact">contact us &#8594;</ButtonUnderline>
-          </Text>
-          <StaticImage
-            className="img-right"
-            src="../../images/social-media-influencer-marketing-sudbury.jpg"
-            alt="social media influencer marketing services in sudbury, ON"
-            objectFit="contain"
-          />
-        </WrapperTextRight>
-      </Container>
-      <InfluencerFAQ />
-    </Section>
+    <Wrapper>
+      <Section className="spacing">
+        <Container className="spacing">
+          <div className="text-center">
+            <h2 className="title upper">
+              <span className="italics">your</span>{" "}
+              <span className="accent">social media </span>
+              <span className="italics">influencer</span>
+            </h2>
+          </div>
+          <WrapperTextRight>
+            <Text className="spacing text-left">
+              <div>
+                <h2>
+                  <span className="accent">social media influencing</span> in
+                  sudbury, ON
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
+                  ea.
+                </p>
+              </div>
+              <div>
+                <h2>
+                  <span className="accent">benefits</span> of{" "}
+                  <span className="accent">sudbury social media marketing</span>
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Similique, suscipit.
+                </p>
+              </div>
+              <div>
+                <h2>
+                  <span className="accent">our unique 2-phase system </span> for
+                  social media <span className="accent">management</span>
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
+                  esse.
+                </p>
+              </div>
+              <ButtonUnderline to="/contact">
+                contact us &#8594;
+              </ButtonUnderline>
+            </Text>
+            <StaticImage
+              className="img-right"
+              src="../../images/social-media-influencer-marketing-sudbury.jpg"
+              alt="social media influencer marketing services in sudbury, ON"
+              objectFit="contain"
+            />
+          </WrapperTextRight>
+        </Container>
+        <InfluencerFAQ />
+      </Section>
+    </Wrapper>
   )
 }

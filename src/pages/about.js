@@ -5,13 +5,14 @@ import { Container, Section } from "../components/layoutComponents"
 import FormContact from "../components/forms/formContact"
 import Bio from "../components/bio"
 import Guarantee from "../components/guarantee"
-import AllReviews from "../components/reviews"
+import FeaturedReviews from "../components/featuredReviews"
 import CTA from "../components/CTA"
 import SEO from "../components/seo"
 import BannerImg from "../images/hero-circles-full.svg"
 import { ButtonPrimary } from "../components/buttons"
 import Team from "../components/team"
 import FullServices from "../components/fullServices"
+import Clients from "../components/clients"
 
 export default function About() {
   return (
@@ -26,6 +27,7 @@ export default function About() {
         description="The Social Soulpreneur is a full-service marketing studio and social media agency specializing in content curation, brand development, digital advertising, website development, and social media management."
         img={BannerImg}
       />
+
       <Section>
         <Container className="spacing text-center">
           <div>
@@ -64,9 +66,10 @@ export default function About() {
           <ButtonPrimary to="/contact">get your quote &#8594;</ButtonPrimary>
         </Container>
       </Section>
+      <Clients />
       <Team />
       <FullServices />
-      <AllReviews />
+      <FeaturedReviews />
       <CTA
         subtitle=""
         // title="Start connecting with your audience."

@@ -4,47 +4,62 @@ import styled from "styled-components"
 import { Container, GridAuto, Section } from "./layoutComponents"
 
 const Wrapper = styled.div`
-  background: var(--clr-accent-lighter);
+  background: url("../../images/clients-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   color: var(--txt-light);
-  padding: 2em;
+  display: grid;
+  place-items: center;
+  min-height: 600px;
 `
+
+const Text = styled.div`
+  // margin-top: auto;
+  // margin-bottom: auto;
+`
+
+const ImgStyle = {}
 
 export default function Clients() {
   return (
-    <Wrapper>
-      <Section>
-        <Container className="spacing center">
-          <div>
-            <p className="body--large caps">trusted by</p>
-            <h2 className="title upper bold">200+ businesses</h2>
-            <p>
-              Amazing things happen when you choose the right marketing company
-            </p>
-          </div>
-          <GridAuto>
-            <StaticImage
-              src="../images/clients/adventure.svg"
-              alt="social media marketing sudbury client"
-              height={150}
-            />
-            <StaticImage
-              src="../images/clients/arc.svg"
-              alt="social media marketing sudbury client"
-              height={150}
-            />
-            <StaticImage
-              src="../images/clients/boreal.svg"
-              alt="social media marketing sudbury client"
-              height={150}
-            />
-            <StaticImage
-              src="../images/clients/beyond-wireless.svg"
-              alt="social media marketing sudbury client"
-              height={150}
-            />
-          </GridAuto>
-        </Container>
-      </Section>
-    </Wrapper>
+    <div className="spacing-lg">
+      <Wrapper>
+        <Section>
+          <Container className="spacing center">
+            <Text>
+              <p className="body--large caps">trusted by</p>
+              <h2 className="title upper bold">200+ businesses</h2>
+              <p>
+                Amazing things happen when you choose the right marketing
+                company
+              </p>
+            </Text>
+          </Container>
+        </Section>
+      </Wrapper>
+      {/* <Container className="center spacing">
+        <h3 className="body--large caps bold">
+          We've also had the pleasure of working closely with:
+        </h3>
+        <GridAuto>
+          <StaticImage
+            style={ImgStyle}
+            src="../images/lululemon-marketing-client.svg"
+            alt="sudbury social media marketing client"
+          />
+          <StaticImage
+            style={ImgStyle}
+            src="../images/levi-marketing-client.svg"
+            alt="sudbury social media marketing client"
+          />
+          <StaticImage
+            style={ImgStyle}
+            src="../images/beyond-wireless-marketing-client.svg"
+            alt="sudbury social media marketing client"
+          />
+        </GridAuto>
+      </Container> */}
+    </div>
   )
 }

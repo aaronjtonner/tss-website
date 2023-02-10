@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import Bio from "../components/bio"
 import Guarantee from "../components/guarantee"
 import FullServices from "../components/fullServices"
-import AllReviews from "../components/reviews"
+import AllReviews from "../components/allReviews"
 import FormContact from "../components/forms/formContact"
 import FeaturedGallery from "../components/featuredGallery"
 import SEO from "../components/seo"
@@ -28,6 +28,7 @@ export default function Testimonials() {
         description="From start-ups to international brands, to local businesses to franchises – we’ve got the tools and expertise to effectively work with them all. Read our featured testimonials below to see why our clients love working with us."
         img={BannerImg}
       />
+      <AllReviews />
     </Layout>
   )
 }

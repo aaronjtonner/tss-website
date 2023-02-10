@@ -98,6 +98,11 @@ export default function Services() {
       <SocialMediaManagement />
       <SocialMediaInfluencing />
       <WebDesign />
+      <CTA
+        subtitle="\"
+        title="get help from a team of digital marketing experts"
+        description="We work with our clients to develop and execute a strategic social media plan based on market research and your company’s unique goals and objectives."
+      />
       <TeamCondensed />
       <FormContact title="easily request a service using the form below" />
     </Layout>
