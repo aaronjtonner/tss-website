@@ -18,7 +18,10 @@ import Banner from "../components/banners/bannerPrimary"
 export default function Testimonials() {
   return (
     <Layout>
-      <SEO title="Testimonials - " description="" />
+      <SEO
+        title="Testimonials - The Social Soulpreneur"
+        description="From start-ups to international brands, to local businesses to franchises – we’ve got the tools and expertise to effectively work with them all. Read our featured testimonials below to see why our clients love working with us."
+      />
       <Banner
         to1="/"
         link1="Home"

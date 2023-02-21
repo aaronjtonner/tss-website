@@ -4,7 +4,7 @@ import styled from "styled-components"
 import { Container } from "../layoutComponents"
 import { IoMdArrowDropdown } from "react-icons/io"
 
-import Logo from "../../images/tss-logo.svg"
+import Logo from "../../images/logo-horizontal.svg"
 
 const device = {
   sm: "18em",
@@ -58,7 +58,7 @@ const NavPhone = styled.a`
     opacity: 0.7;
   }
 
-  @media screen and (max-width: 32em) {
+  @media screen and (max-width: 48em) {
     display: none;
   }
 `
@@ -72,7 +72,7 @@ const Headerbottom = styled.div`
 
 const LogoContainer = styled.div`
   img {
-    height: 80px;
+    height: 100px;
     transition: 0.4s;
 
     &[data-active="true"] {
@@ -103,7 +103,7 @@ const NavList = styled.ul`
     display: ${({ nav }) => (nav ? "flex" : "none")};
     align-items: center;
     position: absolute;
-    top: 82px;
+    top: 190px;
 
     left: 0;
     right: 0;
@@ -248,7 +248,7 @@ export default function HeaderBasic() {
             </LogoContainer>
             <ul>
               <li>
-                <NavPhone href="tel: 705-923-1199">(705) 923-1199</NavPhone>
+                <NavPhone href="tel: 705-923-1129">(705) 923-1129</NavPhone>
               </li>
               <li>
                 <GetQuote to="/contact">

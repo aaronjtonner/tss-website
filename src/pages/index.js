@@ -22,6 +22,14 @@ const QuoteStyle = {
   fontSize: "80px",
 }
 
+const ImgStyle = {
+  maxHeight: "150px",
+  maxWidth: "150px",
+  borderRadius: "100000px",
+  border: "1px solid var(--clr-accent)",
+  filter: "grayscale(100%)",
+}
+
 const SingleFeaturedReview = styled.div`
   display: grid;
   place-items: center;
@@ -46,13 +54,16 @@ const FlexItem = styled.div`
 export default function index() {
   return (
     <Layout>
-      <SEO title="TSS" description="tss" />
+      <SEO
+        title="The Social Soulpreneur - Your New Marketing Team"
+        description="Say hello to on-brand, purposeful and relatable content. The Social Soulpreneur is a team of expert social media managers and marketing and branding gurus."
+      />
       <HeroGrid />
       <Section className="spacing">
         <Container className="spacing text-center">
           <div>
             <p className="upper body--small">your secret marketing weapon</p>
-            <h1 className="upper">
+            <h1 className="upper title">
               <span className="italics">your new </span>
               <span className="accent">marketing team</span>{" "}
               <span className="italics">in sudbury, ON</span>
@@ -94,43 +105,57 @@ export default function index() {
           <Flex className="spacing">
             <SingleFeaturedReview>
               <StaticImage
-                src="../images/meghan-bonhomme-social-media-client.jpg"
+                src="../images/clients/debbi-nicholson-1.jpg"
                 alt="sudbury social media client"
+                style={ImgStyle}
               />
               <FlexItem>
                 <FaQuoteLeft style={QuoteStyle} />
                 <div className="spacing">
                   <p className="italics bold">
-                    TSS IS MY SECRET WEAPON! If you've been worried about
-                    letting go of your business-baby and passing the reigns to
-                    someone else,{" "}
-                    <span className="accent">Hailey is the human I trust.</span>{" "}
-                    I am from-the-bottom-of-my-heart grateful to have her on my
-                    team!
+                    The Greater Sudbury Chamber of Commerce has utilized the
+                    talents of The Social Soulpreneur for all our social media
+                    and marketing needs. We value their expertise, creativity,
+                    and experience, and their ability to meet our, sometimes,
+                    tight timelines. They understand our goals and our market,
+                    and always deliver an excellent product. Outsourcing these
+                    needs to The Social Soulpreneur means our staff can focus on
+                    other priorities and be assured our social media and
+                    marketing are in good hands.
                   </p>
-                  <p className="upper">Meghan Bonhomme</p>
+                  <p className="upper">
+                    Debbi M Nicholson, President & CEO Greater Sudbury Chamber
+                    of Commerce
+                  </p>
                 </div>
               </FlexItem>
             </SingleFeaturedReview>
             <SingleFeaturedReview>
               <StaticImage
-                src="../images/kamaldeep-bansal-social-media-client.jpg"
+                src="../images/clients/david-russell-1.jpg"
                 alt="sudbury social media client"
+                style={ImgStyle}
               />
               <FlexItem>
                 <FaQuoteLeft style={QuoteStyle} />
                 <div className="spacing">
                   <p className="italics bold">
-                    <span className="accent">
-                      The Social Soulpreneur’s ability to bring forth my message
-                      into the community is truly unmatched!
-                    </span>{" "}
-                    Having her on my team releases much of the constraints I
-                    have as a small business owner, which directly allows me to
-                    provide the service I love to provide. Thank you TSS for
-                    bringing my purpose into the 21st century!
+                    Hailey Hastie from The Social Soulpreneur was an avid Twiggs
+                    Sudbury customer when she noticed the potential for growth
+                    with our social media. Since The Social Soulpreneur has
+                    taken over management of our social media accounts, they
+                    have dramatically increased our social following from less
+                    than 600 to over 3600 real, engaging followers from the
+                    Sudbury area. The Social Soulpreneur’s efforts have resulted
+                    in daily user-generated content from Twiggs customers and
+                    many successful social collaborations with other local
+                    companies. TSS is an energetic, creative, confident, and
+                    passionate team whose services are a great asset to any
+                    business.
                   </p>
-                  <p className="upper">Dr. kamaldeep bansal</p>
+                  <p className="upper">
+                    David Russell, Twiggs Coffee Roasters Sudbury
+                  </p>
                 </div>
               </FlexItem>
             </SingleFeaturedReview>
@@ -139,13 +164,13 @@ export default function index() {
       </Section>
       <Clients />
       <FullServices />
-      <FeaturedReviews />
       <CTA
         subtitle=""
         // title="Start connecting with your audience."
         title="Stop going it alone in your marketing efforts"
         description="Get an entire team of marketing experts working with you to connect you with your target audience and drive results. Whether you're looking to grow your brand, increase engagement, or boost conversions, we've got you covered. Click the link or give us a call today to schedule a free consultation and see how our team can help you achieve your goals."
       />
+      <FeaturedReviews />
       <FormContact title="Discover how we can help your business grow" />
     </Layout>
   )

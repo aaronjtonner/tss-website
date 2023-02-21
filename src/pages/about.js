@@ -1,5 +1,5 @@
 import React from "react"
-import Banner from "../components/banners/bannerPrimary"
+import BannerAbout from "../components/banners/bannerAbout"
 import Layout from "../components/layout"
 import { Container, Section } from "../components/layoutComponents"
 import FormContact from "../components/forms/formContact"
@@ -17,8 +17,11 @@ import Clients from "../components/clients"
 export default function About() {
   return (
     <Layout>
-      <SEO title="About Us - " description="" />
-      <Banner
+      <SEO
+        title="About Us - Meet Your New Marketing Team"
+        description="The Social Soulpreneur is a full-service marketing studio and social media agency specializing in content curation, brand development, digital advertising, website development, and social media management."
+      />
+      <BannerAbout
         to1="/"
         link1="Home"
         to2="/about"
@@ -27,7 +30,7 @@ export default function About() {
         description="The Social Soulpreneur is a full-service marketing studio and social media agency specializing in content curation, brand development, digital advertising, website development, and social media management."
         img={BannerImg}
       />
-
+      <Team />
       <Section>
         <Container className="spacing text-center">
           <div>
@@ -67,15 +70,15 @@ export default function About() {
         </Container>
       </Section>
       <Clients />
-      <Team />
-      <FullServices />
-      <FeaturedReviews />
       <CTA
         subtitle=""
         // title="Start connecting with your audience."
         title="Stop going it alone in your marketing efforts"
         description="Get an entire team of marketing experts working with you to connect you with your target audience and drive results. Whether you're looking to grow your brand, increase engagement, or boost conversions, we've got you covered. Click the link or give us a call today to schedule a free consultation and see how our team can help you achieve your goals."
       />
+      {/* <FullServices /> */}
+      <FeaturedReviews />
+
       <FormContact title="Discover how we can help your business grow" />
     </Layout>
   )

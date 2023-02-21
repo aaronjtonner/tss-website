@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: "Window Contractor",
+    title: "Social Media Management Compant in Sudbury, ON",
     titleTemplate: "%s",
-    description: "Klaad glass",
-    url: "https://www.klaadglass.ca", // No trailing slash allowed!
-    siteUrl: "https://www.klaadglass.ca",
+    description: "TSS",
+    url: "https://thesocialsoulpreneur.com/", // No trailing slash allowed!
+    siteUrl: "https://thesocialsoulpreneur.com/",
     image: "/logo.svg", // Path to your image you placed in the 'static' folder
     twitterUsername: "",
   },

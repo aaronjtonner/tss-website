@@ -3,7 +3,7 @@ import styled from "styled-components"
 import { Container } from "../layoutComponents"
 import { ButtonPrimary } from "../buttons"
 import { StaticImage } from "gatsby-plugin-image"
-import HeroImg from "../../images/hero-circles-tss.svg"
+import HeroImg from "../../images/hero-circles-tss-1.svg"
 
 const Wrapper = styled.div`
   display: grid;
@@ -13,7 +13,9 @@ const Wrapper = styled.div`
 const Bg = styled.div`
   grid-column: 1 / -1;
   grid-row: 1 / span 2;
-  background: url("../../images/tss-hero-1.jpg") rgba(0, 0, 0, 0.6);
+  background: url("../../images/tss-hero-1.jpg") rgba(0, 0, 0, 0.5);
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
   background-blend-mode: overlay;
   background-position: center;
   background-size: cover;
@@ -57,9 +59,8 @@ export default function HeroGrid(props) {
       <Top>
         <Container className="spacing">
           <h2 className="title caps bold">
-            <span className="accent italics">elevating</span>{" "}
             <span className="italics">
-              your brand to new heights through social media
+              your <span className="italics accent">new</span> marketing studio
             </span>
           </h2>
           <p className="bold">
@@ -69,7 +70,7 @@ export default function HeroGrid(props) {
             social media marketing to us, while you continue to shine in your
             own area of expertise.
           </p>
-          <ButtonPrimary to="/contact">talk to us now &#8594;</ButtonPrimary>
+          <ButtonPrimary to="/contact">let's chat &#8594;</ButtonPrimary>
         </Container>
       </Top>
       <Bottom>

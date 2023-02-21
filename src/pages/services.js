@@ -25,7 +25,10 @@ const TopText = styled.div`
 export default function Services() {
   return (
     <Layout>
-      <SEO title="Our Services" description="" />
+      <SEO
+        title="In-house Social Media Marketing Agency Sudbury, ON - TSS"
+        description="Our mission as your Sudbury digital marketing team is to help you more effectively market your business and promote your brand through social media while engaging with your community in a humanized way."
+      />
       <Banner
         to1="/"
         link1="Home"
@@ -82,27 +85,22 @@ export default function Services() {
                 automotive, non-profit, and everywhere in between.
               </p>
             </div>
-            <ButtonPrimary to="/contact">
-              book your consultation &#8594;
-            </ButtonPrimary>
+            <ButtonPrimary to="/contact">let's chat &#8594;</ButtonPrimary>
           </TopText>
         </Flex>
       </Section>
-      <Clients />
+
       <ServicesList />
-      <CTA
-        subtitle="\"
-        title="get help from a team of digital marketing experts"
-        description="We work with our clients to develop and execute a strategic social media plan based on market research and your company’s unique goals and objectives."
-      />
       <SocialMediaManagement />
       <SocialMediaInfluencing />
       <WebDesign />
+
       <CTA
         subtitle="\"
         title="get help from a team of digital marketing experts"
         description="We work with our clients to develop and execute a strategic social media plan based on market research and your company’s unique goals and objectives."
       />
+      <Clients />
       <TeamCondensed />
       <FormContact title="easily request a service using the form below" />
     </Layout>

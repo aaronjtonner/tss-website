@@ -10,14 +10,10 @@ import BannerImg from "../images/hero-circles-full.svg"
 export default function Contact() {
   return (
     <Layout>
-      <SEO title="Contact Us" description="" />
-      <BannerContact
-        to1="/"
-        link1="Home"
-        to2="/contact"
-        link2="Contact"
-        title="get in touch with us or book your consultation"
-        img={BannerImg}
+      <SEO
+        title="Contact Us - Get Quote From Your New Marketing Team"
+        description="Contact Us To Learn How we Can Help Your Business.
+        Call (705) 923-1129 Or Send Us A Message on this page!"
       />
       <FormContact title="get in touch with us using the form below" />
     </Layout>

@@ -33,14 +33,16 @@ export default function CTA(props) {
           <Flex>
             <Text className="spacing">
               <div>
-                <h3 className="title bold accent italics">{props.title}</h3>
+                <h3 className="title bold accent italics">
+                  Focus on what you do best - let us help with the rest!
+                </h3>
               </div>
               <p className="cta-description body--small">{props.description}</p>
               <Actions>
                 <ButtonPrimary to="/contact">book online &#8594;</ButtonPrimary>
-                <AnchorInline className="bold italics" href="tel: 705-923-1199">
+                <AnchorInline className="bold italics" href="tel: 705-923-1129">
                   <span className="light">Or Call Us:</span> <br />
-                  (705) 923-1199
+                  (705) 923-1129
                 </AnchorInline>
               </Actions>
             </Text>

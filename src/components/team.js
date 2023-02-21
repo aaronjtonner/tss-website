@@ -3,17 +3,17 @@ import React from "react"
 import styled from "styled-components"
 import { Container, Flex, Section } from "./layoutComponents"
 
-import Mikayla from "../images/team/mikayla-headshot.jpg"
-import Daniela from "../images/team/daniela-headshot.jpg"
-import Hailey from "../images/team/hailey-headshot.jpg"
-import { AnchorInline, ButtonInline } from "./buttons"
+import Mikayla from "../images/team/mikayla-headshot-circle.jpg"
+import Daniela from "../images/team/daniela-valle-headshot-circle.jpg"
+import Hailey from "../images/team/hailey-headshot-circle.jpg"
+import Karen from "../images/team/karen-hastie-headshot-circle.jpg"
+import { AnchorInline, AnchorUnderline, ButtonInline } from "./buttons"
 
 const TeamWrapper = styled.div`
   background: url("../../images/tss-logo.svg"), rgba(255, 255, 255, 0.97);
   background-blend-mode: overlay;
   background-position: center;
   background-size: contain;
-  background-repeat: no-repeat;
 `
 
 const Wrapper = styled.div`
@@ -23,10 +23,10 @@ const Wrapper = styled.div`
   .headshot-img-mobile,
   .headshot-img-desktop {
     // clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-    border: 2px solid var(--clr-accent);
-    border-radius: 1000px;
     max-height: 400px;
     max-width: 400px;
+    border: 2px solid var(--clr-accent);
+    border-radius: 10000px;
     box-shadow: var(--shadow-light-accent);
     object-fit: cover;
     object-position: top;
@@ -75,6 +75,7 @@ const TeamMember = props => {
             <h4 className=" upper bold">{props.role}</h4>
           </div>
           <p>{props.description}</p>
+          <AnchorUnderline href={props.mailto}>{props.email}</AnchorUnderline>
         </Text>
       </Flex>
     </Wrapper>
@@ -90,7 +91,7 @@ export default function Team() {
             <h2 className="title upper center">
               <span className="italics">meet the </span>
               <span className="accent">TSS</span>{" "}
-              <span className="italics">marketing team</span>
+              <span className="italics"> team</span>
             </h2>
           </div>
           <div className="spacing-lg">
@@ -99,6 +100,8 @@ export default function Team() {
               alt="Hailey Hastie Sudbury digital marketer headshot"
               name="Hailey Hastie"
               role="CEO, Chief Marketing Coordinator"
+              email="hailey@thesocialsoulpreneur.com"
+              mailto="mailto: hailey@thesocialsoulpreneur.com"
               description="Hailey Hastie was born and raised in Sudbury, Ontario by a successful single
 -
 mom entrepreneur
@@ -157,11 +160,44 @@ June of 2022
 giving birth alongside her husband to their
 daughter, Indiana."
             />
+
+            <TeamMember
+              img={Daniela}
+              alt="Daniela Valle - Sudbury Marketing Strategist, Sudbury Digital Ad Analyst"
+              name="Daniela Valle"
+              email="daniela@thesocialsoulpreneur.com"
+              mailto="mailto: daniela@thesocialsoulpreneur.com"
+              role="Marketing Strategist, Digital Ad Analyst"
+              description="Daniela has always shown interest in art, pop culture and business. While in high school, she took as many
+              business and art courses available and started to develop a passion for marketing. Daniela
+              found a way to
+              combine her creative abilities with her love for business and knew that specializing in marketing was a perfect fit
+              for her.
+              In 2017, Daniela attended Laurentian University. Here, she earned a Bachelor's degree in Business Administration
+              with a specialization in Marketing and a minor in Communication Studies. When Daniela met
+              Hailey
+              in her
+              marketing class at Laurentian, they instantly became friends and knew they would work so well together. With
+              the same passions in mind, Daniela and
+              Hailey
+              continue to help each other thrive in business, and in 2020 she
+              joined The Social Soulpreneur. Her favourite thing about working in marketing and social media is the diversity.
+              Every client has a different brand, vision, and goal
+              –
+              allowing her job to be
+              just as unique!
+              Since joining The Social Soulpreneur, Daniela has expanded her skill set and grown as a marketer. Not only does
+              she create engaging content for clients, but she also develops strategic marketing and brand work, manages and
+              creates digital ads, and more!
+              She is very excited to keep helping clients grow their businesses and reach their marketing goals!"
+            />
             <TeamMember
               img={Mikayla}
               alt="Mikayla - Sudbury Social Media Manager"
               name="Mikayla Desrosiers"
               role="Social Media Manager"
+              mailto="mailto: mikayla@thesocialsoulpreneur.com"
+              email="mikayla@thesocialsoulpreneur.com"
               description="The first time Mikayla heard about The Social Soulpreneur,
               she was in her first year at Cambrian
               College for Business Administration. After a deep dive into their social media pages, she quickly
@@ -187,33 +223,23 @@ daughter, Indiana."
               clients."
             />
             <TeamMember
-              img={Daniela}
-              alt="Daniela Valle - Sudbury Marketing Strategist, Sudbury Digital Ad Analyst"
-              name="Daniela Valle"
-              role="Marketing Strategist, Digital Ad Analyst"
-              description="Daniela has always shown interest in art, pop culture and business. While in high school, she took as many
-              business and art courses available and started to develop a passion for marketing. Daniela
-              found a way to
-              combine her creative abilities with her love for business and knew that specializing in marketing was a perfect fit
-              for her.
-              In 2017, Daniela attended Laurentian University. Here, she earned a Bachelor's degree in Business Administration
-              with a specialization in Marketing and a minor in Communication Studies. When Daniela met
-              Hailey
-              in her
-              marketing class at Laurentian, they instantly became friends and knew they would work so well together. With
-              the same passions in mind, Daniela and
-              Hailey
-              continue to help each other thrive in business, and in 2020 she
-              joined The Social Soulpreneur. Her favourite thing about working in marketing and social media is the diversity.
-              Every client has a different brand, vision, and goal
-              –
-              allowing her job to be
-              just as unique!
-              Since joining The Social Soulpreneur, Daniela has expanded her skill set and grown as a marketer. Not only does
-              she create engaging content for clients, but she also develops strategic marketing and brand work, manages and
-              creates digital ads, and more!
-              She is very excited to keep helping clients grow their businesses and reach their marketing goals!"
+              img={Karen}
+              alt="Karen - Sudbury brand manager"
+              name="Karen Hastie"
+              role="Branding & Business Development"
+              mailto="mailto: karen@thesocialsoulpreneur.com"
+              email="karen@thesocialsoulpreneur.com"
+              description=""
             />
+            {/* <TeamMember
+              // img={Tabitha}
+              alt="Tabitha - Sudbury photographer for social media"
+              name="Tabitha Rees"
+              role="Photographer"
+              // mailto="mailto: karen@thesocialsoulpreneur.com"
+              // email="karen@thesocialsoulpreneur.com"
+              description=""
+            /> */}
           </div>
         </Container>
       </Section>

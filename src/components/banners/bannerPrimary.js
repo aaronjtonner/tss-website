@@ -73,12 +73,10 @@ export default function Banner(props) {
         </div>
         <p className="body--small">{props.description}</p>
         <Actions>
-          <ButtonPrimary to="/contact">
-            book your consultation &#8594;
-          </ButtonPrimary>
-          <AnchorInline className="bold italics" href="tel: 705-923-11992">
+          <ButtonPrimary to="/contact">let's chat &#8594;</ButtonPrimary>
+          <AnchorInline className="bold italics" href="tel: 705-923-1129">
             <span className="dark">Or Call Us:</span> <br />
-            (705) 923-1199
+            (705) 923-1129
           </AnchorInline>
         </Actions>
       </Text>

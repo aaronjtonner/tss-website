@@ -72,19 +72,43 @@ export default function ServicesList() {
           <ul>
             <li>
               <FaMousePointer style={IconStyle} />
-              social media <span className="accent">marketing</span>
+              social media <span className="accent">management</span>
+            </li>
+            <li>
+              <FaMousePointer style={IconStyle} />
+              content <span className="accent">creation</span>
+            </li>
+            <li>
+              <FaMousePointer style={IconStyle} />
+              website design & <span className="accent">development</span>
             </li>
           </ul>
           <ul>
             <li>
               <FaMousePointer style={IconStyle} />
-              photography <span className="accent">in-house</span>
+              influencer <span className="accent">marketing</span>
+            </li>
+            <li>
+              <FaMousePointer style={IconStyle} />
+              digital <span className="accent">advertising</span>
+            </li>
+            <li>
+              <FaMousePointer style={IconStyle} />
+              print <span className="accent">media</span>
             </li>
           </ul>
           <ul>
             <li>
               <FaMousePointer style={IconStyle} />
               videography <span className="accent">in-house</span>
+            </li>
+            <li>
+              <FaMousePointer style={IconStyle} />
+              email <span className="accent">marketing</span>
+            </li>
+            <li>
+              <FaMousePointer style={IconStyle} />
+              mobile app <span className="accent">development</span>
             </li>
           </ul>
         </FlexList>

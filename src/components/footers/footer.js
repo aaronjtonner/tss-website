@@ -6,10 +6,11 @@ import { Info } from "../info"
 import { Container } from "../layoutComponents"
 import { ButtonInline } from "../buttons"
 
-import Logo from "../../images/tss-logo.svg"
+import Logo from "../../images/logo-tss-white.svg"
 import AaronTonnerWebSolutionsLogo from "../../images/aaron-tonner-web-solutions-logo-white-white.svg"
 import Facebook from "../../images/socials/facebook.svg"
 import Instagram from "../../images/socials/instagram.svg"
+import TikTok from "../../images/socials/tik-tok.svg"
 import Twitter from "../../images/socials/twitter.svg"
 import Linkedin from "../../images/socials/linkedin.svg"
 import Youtube from "../../images/socials/youtube.svg"
@@ -198,19 +199,14 @@ export default function Footer() {
               <ul>
                 <li>
                   <FlexContact>
-                    <a href="tel: 705-923-1199">(705) 923-1199</a>
+                    <a href="tel: 705-923-1129">(705) 923-1129</a>
                   </FlexContact>
                 </li>
                 <li>
                   <FlexContact>
-                    <a href="mailto: info@email.ca">
-                      hailey@thesocialsoulpreneur.com
+                    <a href="mailto: info@thesocialsoulpreneur.com">
+                      info@thesocialsoulpreneur.com
                     </a>
-                  </FlexContact>
-                </li>
-                <li>
-                  <FlexContact>
-                    <p>{Info.hours}</p>
                   </FlexContact>
                 </li>
               </ul>
@@ -239,6 +235,28 @@ export default function Footer() {
                     <img
                       src={Instagram}
                       alt="social media marketing company sudbury instagram"
+                    />
+                  </a>
+                </div>
+                <div>
+                  <a
+                    target="_blank"
+                    href="https://www.tiktok.com/@thesocialsoulpreneur"
+                  >
+                    <img
+                      src={TikTok}
+                      alt="social media marketing company sudbury tik tok"
+                    />
+                  </a>
+                </div>
+                <div>
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/company/thesocialsoulpreneur/?originalSubdomain=ca"
+                  >
+                    <img
+                      src={Linkedin}
+                      alt="social media marketing company sudbury linkedin"
                     />
                   </a>
                 </div>

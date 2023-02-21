@@ -18,10 +18,12 @@ export default function FormContact(props) {
       <Container>
         <div>
           <h3 className="title--bold center">
-            <span className="italics">{props.title}</span>
+            <span className="italics">
+              Contact Us To Learn How TSS Can Help Your Business
+            </span>
           </h3>
           <p className="caps center">
-            Call <ButtonInline href="705-923-1199">(705) 923-1199</ButtonInline>{" "}
+            Call <ButtonInline href="705-923-1129">(705) 923-1129</ButtonInline>{" "}
             or send us a message below!
           </p>
         </div>
