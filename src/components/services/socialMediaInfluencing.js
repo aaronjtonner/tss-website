@@ -66,28 +66,31 @@ export default function SocialMediaInfluencing() {
                   sudbury, ON
                 </h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
-                  ea.
+                  Influencer marketing is a type of social media marketing that
+                  uses endorsements and product mentions from
+                  influencers–individuals who have a dedicated social following
+                  and are viewed as experts within their niche. By incorporating
+                  influencer marketing into your business’s marketing strategy
+                  is an effective way to humanize your brand and expose it to a
+                  greater niche of potential buyers.
                 </p>
               </div>
               <div>
                 <h2>
                   <span className="accent">benefits</span> of{" "}
-                  <span className="accent">sudbury social media marketing</span>
+                  <span className="accent">
+                    sudbury social media influencing
+                  </span>
                 </h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Similique, suscipit.
-                </p>
-              </div>
-              <div>
-                <h2>
-                  <span className="accent">our unique 2-phase system </span> for
-                  social media <span className="accent">management</span>
-                </h2>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
-                  esse.
+                  Studies have shown that consumers want authenticity from the
+                  brands they interact with. A recent stat shows that 90% of
+                  consumers trust peer recommendations while only 33% trust ads.
+                  Influencer marketing has been shown to deliver an 11X higher
+                  ROI than other digital media. In comparison to paid media,
+                  brands typically earn $2 for every $1 spent on paid
+                  advertisements compared to $12 per every $1 spent on
+                  influencer marketing.
                 </p>
               </div>
               <ButtonUnderline to="/contact">
@@ -96,13 +99,13 @@ export default function SocialMediaInfluencing() {
             </Text>
             <StaticImage
               className="img-right"
-              src="../../images/social-media-influencer-marketing-sudbury.jpg"
+              src="../../images/influencer-management-sudbury-dark.png"
               alt="social media influencer marketing services in sudbury, ON"
               objectFit="contain"
             />
           </WrapperTextRight>
         </Container>
-        <InfluencerFAQ />
+        {/* <InfluencerFAQ /> */}
       </Section>
     </Wrapper>
   )

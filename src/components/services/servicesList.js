@@ -1,6 +1,6 @@
 import React from "react"
 import { Container, Flex, Section } from "../layoutComponents"
-import { FaMousePointer } from "react-icons/fa"
+import { BsLightningFill } from "react-icons/bs"
 import styled from "styled-components"
 
 const device = {
@@ -71,43 +71,43 @@ export default function ServicesList() {
         <FlexList>
           <ul>
             <li>
-              <FaMousePointer style={IconStyle} />
+              <BsLightningFill style={IconStyle} />
               social media <span className="accent">management</span>
             </li>
             <li>
-              <FaMousePointer style={IconStyle} />
+              <BsLightningFill style={IconStyle} />
               content <span className="accent">creation</span>
             </li>
             <li>
-              <FaMousePointer style={IconStyle} />
+              <BsLightningFill style={IconStyle} />
               website design & <span className="accent">development</span>
             </li>
           </ul>
           <ul>
             <li>
-              <FaMousePointer style={IconStyle} />
+              <BsLightningFill style={IconStyle} />
               influencer <span className="accent">marketing</span>
             </li>
             <li>
-              <FaMousePointer style={IconStyle} />
+              <BsLightningFill style={IconStyle} />
               digital <span className="accent">advertising</span>
             </li>
             <li>
-              <FaMousePointer style={IconStyle} />
+              <BsLightningFill style={IconStyle} />
               print <span className="accent">media</span>
             </li>
           </ul>
           <ul>
             <li>
-              <FaMousePointer style={IconStyle} />
+              <BsLightningFill style={IconStyle} />
               videography <span className="accent">in-house</span>
             </li>
             <li>
-              <FaMousePointer style={IconStyle} />
+              <BsLightningFill style={IconStyle} />
               email <span className="accent">marketing</span>
             </li>
             <li>
-              <FaMousePointer style={IconStyle} />
+              <BsLightningFill style={IconStyle} />
               mobile app <span className="accent">development</span>
             </li>
           </ul>

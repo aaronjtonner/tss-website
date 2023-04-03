@@ -48,7 +48,7 @@ export default function SocialMediaManagement() {
           <h2 className="title upper">
             <span className="italics">your</span>{" "}
             <span className="accent">social media </span>
-            <span className="italics">sensai</span>
+            <span className="italics">manager</span>
           </h2>
         </div>
         <WrapperTextLeft>
@@ -59,8 +59,12 @@ export default function SocialMediaManagement() {
                 sudbury, ON
               </h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
-                ea.
+                We work with our clients to develop and execute a strategic
+                social media plan based on market research and your company’s
+                unique goals and objectives. Our mission is to help business
+                owners effectively market their businesses and promote their
+                brands through social media while engaging with their community
+                in a humanized way.
               </p>
             </div>
             <div>
@@ -69,8 +73,14 @@ export default function SocialMediaManagement() {
                 <span className="accent">sudbury social media marketing</span>
               </h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Similique, suscipit.
+                Grab interest through custom content that makes an impact and
+                communicates your brand and engage with your audience and
+                community in an authentic and effective way. We develop
+                on-brand, purposeful and relatable content. The Social
+                Soulpreneur is a team of expert social media managers and
+                marketing and branding gurus who know how to effectively and
+                efficiently manage your audience in a timely manner – with no
+                programming and no automation. Just real, organic growth.
               </p>
             </div>
             <div>
@@ -79,21 +89,33 @@ export default function SocialMediaManagement() {
                 social media <span className="accent">management</span>
               </h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
-                esse.
+                <span className="bold  upper">Phase 1: The set up</span> <br />{" "}
+                We revamp, re-brand, update and enhance your social media
+                platforms to ensure they are meeting all your business needs,
+                taking advantage of all the various features each unique
+                platform has to offer, provide consistent branding visuals and
+                copy across each platform and develop a strategic content plan.
+              </p>
+              <p>
+                <span className="bold  upper">Phase 2: monthly management</span>{" "}
+                <br /> We become your social media secret weapon. We create a
+                custom management package based on your business or industry and
+                take care of all your social media needs and daily tasks. From
+                content creation to community engagement – we’ve got you
+                covered.
               </p>
             </div>
             <ButtonUnderline to="/contact">contact us &#8594;</ButtonUnderline>
           </Text>
           <StaticImage
             className="img-right"
-            src="../../images/social-media-management-sudbury.jpg"
+            src="../../images/social-media-management-sudbury-2-dark.png"
             alt="social media management services in sudbury, ON"
             objectFit="contain"
           />
         </WrapperTextLeft>
       </Container>
-      <SocialMediaFAQ />
+      {/* <SocialMediaFAQ /> */}
     </Section>
   )
 }

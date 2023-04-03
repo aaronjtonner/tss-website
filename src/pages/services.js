@@ -5,7 +5,8 @@ import { Container, Flex, Section } from "../components/layoutComponents"
 import FormContact from "../components/forms/formContact"
 import FullServices from "../components/fullServices"
 import SEO from "../components/seo"
-import BannerImg from "../images/hero-circles-full.svg"
+import BannerImg from "../images/services-circles.svg"
+import Background from "../images/services-banner.jpg"
 import { StaticImage } from "gatsby-plugin-image"
 import { ButtonPrimary } from "../components/buttons"
 import Clients from "../components/clients"
@@ -34,13 +35,18 @@ export default function Services() {
         link1="Home"
         to2="/services"
         link2="Services"
-        title="your in-house social media marketing agency in sudbury, ON"
+        title="Your In-House Marketing and Social Media Agency In Sudbury, ON"
         description="Our mission as your Sudbury digital marketing team is to help you more effectively market your business and promote your brand through social media while engaging with your community in a humanized way."
         img={BannerImg}
+        background={Background}
       />
       <Section>
         <Flex className="spacing">
-          <StaticImage src="../images/services-1.jpg" alt="" />
+          <StaticImage
+            src="../images/services-1.jpg"
+            alt=""
+            className="stretch"
+          />
           <TopText className="spacing">
             <div>
               <p className="body--small upper">

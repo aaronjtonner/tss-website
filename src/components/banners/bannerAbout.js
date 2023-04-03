@@ -24,6 +24,8 @@ const Bg = styled.div`
   grid-row: 1 / span 2;
   grid-column: 1 / -1;
   z-index: 1;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
 `
 
 const Text = styled.div`

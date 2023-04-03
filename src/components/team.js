@@ -49,6 +49,8 @@ const Wrapper = styled.div`
 `
 
 const Text = styled.div`
+  background: var(--clr-light);
+  padding: 2em;
   h4 {
     color: var(--txt-dark-secondary);
     margin-top: 0;

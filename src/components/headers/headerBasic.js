@@ -252,7 +252,7 @@ export default function HeaderBasic() {
               </li>
               <li>
                 <GetQuote to="/contact">
-                  <span>get quote</span>
+                  <span>let's chat</span>
                 </GetQuote>
               </li>
             </ul>

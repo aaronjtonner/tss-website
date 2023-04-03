@@ -16,7 +16,7 @@ const Wrapper = styled.div`
 `
 
 const Bg = styled.div`
-  background: url("../../images/tss-hero-1.jpg"), rgba(0, 0, 0, 0.1);
+  background: ${props => `url(${props.background})`}, rgba(0, 0, 0, 0.1);
   background-blend-mode: overlay;
   background-position: center;
   background-size: cover;
@@ -24,6 +24,8 @@ const Bg = styled.div`
   grid-row: 1 / span 2;
   grid-column: 1 / -1;
   z-index: 1;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
 `
 
 const Text = styled.div`
@@ -59,7 +61,7 @@ const Img = styled.div`
 export default function Banner(props) {
   return (
     <Wrapper>
-      <Bg />
+      <Bg background={props.background} />
       <Text className="spacing">
         <div>
           <Breadcrumb2Links

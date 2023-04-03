@@ -75,15 +75,12 @@ export default function FullServices() {
           <Item className="spacing">
             <StaticImage
               style={ImgStyle}
-              src="../images/social-media-management-sudbury.jpg"
-              alt="social media management sudbury"
+              src="../images/logo-brand-development.png"
+              alt="logo and brand development sudbury"
             />
             <div>
               <h3 className="upper bold">logo and brand development</h3>
-              <ButtonUnderline
-                className="button"
-                to="/services#socialmediamanagement"
-              >
+              <ButtonUnderline className="button" to="/services">
                 read more &#x2192;
               </ButtonUnderline>
             </div>
@@ -91,7 +88,7 @@ export default function FullServices() {
           <Item className="spacing">
             <StaticImage
               style={ImgStyle}
-              src="../images/social-media-management-sudbury.jpg"
+              src="../images/social-media-management-sudbury-2.png"
               alt="social media management sudbury"
             />
             <div>
@@ -107,7 +104,7 @@ export default function FullServices() {
           <Item className="spacing">
             <StaticImage
               style={ImgStyle}
-              src="../images/sudbury-web-design.jpg"
+              src="../images/web-design-sudbury.png"
               alt="sudbury web design"
             />
             <div>
@@ -120,7 +117,7 @@ export default function FullServices() {
           <Item className="spacing">
             <StaticImage
               style={ImgStyle}
-              src="../images/social-media-influencer-marketing-sudbury.jpg"
+              src="../images/influencer-management-sudbury.png"
               alt="social media influencer marketing sudbury"
             />
             <div>
@@ -136,15 +133,12 @@ export default function FullServices() {
           <Item className="spacing">
             <StaticImage
               style={ImgStyle}
-              src="../images/social-media-influencer-marketing-sudbury.jpg"
-              alt="social media influencer marketing sudbury"
+              src="../images/digital-advertising-sudbury.png"
+              alt="digital advertising sudbury"
             />
             <div>
               <h3 className="upper bold">digital advertising</h3>
-              <ButtonUnderline
-                className="button"
-                to="/services#socialmediainfluencing"
-              >
+              <ButtonUnderline className="button" to="/services">
                 read more &#x2192;
               </ButtonUnderline>
             </div>
@@ -152,8 +146,8 @@ export default function FullServices() {
           <Item className="spacing">
             <StaticImage
               style={ImgStyle}
-              src="../images/social-media-influencer-marketing-sudbury.jpg"
-              alt="social media influencer marketing sudbury"
+              src="../images/public-relations-sudbury.png"
+              alt="public relations sudbury"
             />
             <div>
               <h3 className="upper bold">public relations</h3>
