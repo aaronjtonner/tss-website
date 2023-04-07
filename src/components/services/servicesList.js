@@ -100,7 +100,7 @@ export default function ServicesList() {
           <ul>
             <li>
               <BsLightningFill style={IconStyle} />
-              videography <span className="accent">in-house</span>
+              Photography & <span className="accent">Videography</span>
             </li>
             <li>
               <BsLightningFill style={IconStyle} />

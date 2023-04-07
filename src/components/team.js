@@ -10,7 +10,7 @@ import Karen from "../images/team/karen-hastie-headshot-circle.jpg"
 import { AnchorInline, AnchorUnderline, ButtonInline } from "./buttons"
 
 const TeamWrapper = styled.div`
-  background: url("../../images/tss-logo.svg"), rgba(255, 255, 255, 0.97);
+  background: url("../../images/tss-logo.svg"), rgba(255, 255, 255, 0.98);
   background-blend-mode: overlay;
   background-position: center;
   background-size: contain;
