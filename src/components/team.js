@@ -11,10 +11,10 @@ import Tabitha from "../images/team/tabitha-headshot.jpg"
 import { AnchorInline, AnchorUnderline, ButtonInline } from "./buttons"
 
 const TeamWrapper = styled.div`
-  background: url("../../images/tss-logo.svg"), rgba(255, 255, 255, 0.97);
-  background-blend-mode: overlay;
-  background-position: center;
-  background-size: contain;
+  // background: url("../../images/tss-logo.svg"), rgba(255, 255, 255, 0.97);
+  // background-blend-mode: overlay;
+  // background-position: center;
+  // background-size: contain;
 `
 
 const Wrapper = styled.div`

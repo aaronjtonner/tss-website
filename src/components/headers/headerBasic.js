@@ -4,7 +4,7 @@ import styled from "styled-components"
 import { Container } from "../layoutComponents"
 import { IoMdArrowDropdown } from "react-icons/io"
 
-import Logo from "../../images/logo-horizontal.svg"
+import Logo from "../../images/tss-logo-updated.svg"
 
 const device = {
   sm: "18em",
