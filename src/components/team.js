@@ -7,10 +7,11 @@ import Mikayla from "../images/team/mikayla-headshot-circle.jpg"
 import Daniela from "../images/team/daniela-valle-headshot-circle.jpg"
 import Hailey from "../images/team/hailey-headshot-circle.jpg"
 import Karen from "../images/team/karen-hastie-headshot-circle.jpg"
+import Tabitha from "../images/team/tabitha-headshot.jpg"
 import { AnchorInline, AnchorUnderline, ButtonInline } from "./buttons"
 
 const TeamWrapper = styled.div`
-  background: url("../../images/tss-logo.svg"), rgba(255, 255, 255, 0.98);
+  background: url("../../images/tss-logo.svg"), rgba(255, 255, 255, 0.97);
   background-blend-mode: overlay;
   background-position: center;
   background-size: contain;
@@ -225,6 +226,15 @@ daughter, Indiana."
               clients."
             />
             <TeamMember
+              img={Tabitha}
+              alt="Tabitha - Sudbury photographer for social media"
+              name="Tabitha Rees"
+              role="Agency Photographer"
+              description="Tabitha Rees is an accomplished photographer based in Northern Ontario. With a passion for capturing authentic moments and emotions, she has developed a unique style that combines fine art and documentary photography. Tabitha specializes in making people feel comfortable behind the lens; with a keen eye for detail and a talent for storytelling, she creates timeless images that evoke the true essence of her subjects. In addition to taking pride in her work with families and businesses, Tabitha’s highlight of her career includes being featured in national campaigns with Levi’s Canada and lululemon. Through her artistry and passion Tabitha aims to inspire others to see the beauty in everyday life. Tabitha has been an avid photographer for 25 years and is well versed in film and digital photography. Between 2004-2006, Tabitha attended photography classes while taking her undergrad in Public Relations. Since then, Tabitha has taken workshops with award winning and renowned photographers Jenna and Aimee Hobbs, Kirsten Lewis Bethmann and Annie Leibovitz."
+              mailto="mailto: info@tabithareesphotography.com"
+              email="info@tabithareesphotography.com"
+            />
+            <TeamMember
               img={Karen}
               alt="Karen - Sudbury brand manager"
               name="Karen Hastie"
@@ -233,15 +243,6 @@ daughter, Indiana."
               email="karen@thesocialsoulpreneur.com"
               description=""
             />
-            {/* <TeamMember
-              // img={Tabitha}
-              alt="Tabitha - Sudbury photographer for social media"
-              name="Tabitha Rees"
-              role="Photographer"
-              // mailto="mailto: karen@thesocialsoulpreneur.com"
-              // email="karen@thesocialsoulpreneur.com"
-              description=""
-            /> */}
           </div>
         </Container>
       </Section>
